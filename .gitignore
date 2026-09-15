@@ -22,3 +22,4 @@ deck/security-of-ai-agents.bundle.html
 
 # Local experiment outputs (contain internal workspace/experiment IDs).
 output/
+!docs/assets/readme/
