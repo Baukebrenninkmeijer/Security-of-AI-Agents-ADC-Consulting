@@ -118,10 +118,6 @@ Rebuild the self-contained, offline-ready bundle (all assets inlined, not tracke
 uv run python deck/inline_assets.py
 ```
 
-All 33 slides, in order:
-
-[![Every slide of the Security of AI Agents deck as a contact sheet.](deck/assets/readme/deck-overview.jpg)](https://baukebrenninkmeijer.github.io/ADC-red-teaming-demo/)
-
 `deck/DEMO_RUNBOOK.md` has the on-stage primary / backup / fallback paths. The README slide images
 are page exports of `deck/security-of-ai-agents.pdf`.
 
