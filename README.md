@@ -1,7 +1,7 @@
 <img src="deck/assets/readme/slide-01.png" alt="Security of AI Agents: break yours before others do. ADC 2026." width="100%">
 
 <p>
-  <a href="https://baukebrenninkmeijer.github.io/ADC-red-teaming-demo/"><img src="https://img.shields.io/badge/deck-live-df5325" alt="Live deck"></a>
+  <a href="https://baukebrenninkmeijer.github.io/Security-of-AI-Agents-ADC-Consulting/"><img src="https://img.shields.io/badge/deck-live-df5325" alt="Live deck"></a>
   <a href="pyproject.toml"><img src="https://img.shields.io/badge/python-3.12%2B-025558" alt="Python 3.12+"></a>
   <a href="https://pypi.org/project/evaluatorq/"><img src="https://img.shields.io/badge/evaluatorq-1.3.2-025558" alt="evaluatorq 1.3.2"></a>
   <a href="https://huggingface.co/spaces/orq/clarabelle-redteam"><img src="https://img.shields.io/badge/run%20data-HF%20Space-4da296" alt="Hugging Face Space"></a>
@@ -12,13 +12,13 @@ Companion repository for the "Security of AI Agents" talk at ADC (Amsterdam Data
 and the worked example behind it: a live [orq.ai](https://orq.ai) agent, an automated
 goal-hijacking campaign against it, and the run data that campaign produced.
 
-[Read the deck](https://baukebrenninkmeijer.github.io/ADC-red-teaming-demo/) ·
+[Read the deck](https://baukebrenninkmeijer.github.io/Security-of-AI-Agents-ADC-Consulting/) ·
 [Browse the attacks](https://huggingface.co/spaces/orq/clarabelle-redteam)
 
 ## Start here
 
 ```bash
-git clone https://github.com/Baukebrenninkmeijer/ADC-red-teaming-demo.git
+git clone https://github.com/Baukebrenninkmeijer/Security-of-AI-Agents-ADC-Consulting.git
 uv sync
 cp .env.example .env            # add ORQ_API_KEY from your orq.ai workspace, under API Keys
 uv run python provision.py      # creates the agent + evaluator on orq (idempotent)
@@ -113,7 +113,7 @@ you would rather click through it. Source and local-run instructions live in
 
 `deck/security-of-ai-agents.html` is the source, and you edit it directly. It is published from
 `main` at
-[baukebrenninkmeijer.github.io/ADC-red-teaming-demo](https://baukebrenninkmeijer.github.io/ADC-red-teaming-demo/).
+[baukebrenninkmeijer.github.io/Security-of-AI-Agents-ADC-Consulting](https://baukebrenninkmeijer.github.io/Security-of-AI-Agents-ADC-Consulting/).
 Rebuild the self-contained, offline-ready bundle, with all assets inlined and nothing tracked in
 git, with:
 
